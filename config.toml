@@ -1,0 +1,15 @@
+theme = "bogster"
+
+[editor]
+rulers = [100]
+color-modes = true
+
+[editor.cursor-shape]
+insert = "underline"
+
+[keys.normal]
+"A-k" = ["extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before"]
+"A-j" = ["extend_to_line_bounds", "delete_selection", "paste_after"]
+
+[keys.insert]
+"C-[" = "normal_mode"
